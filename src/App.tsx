@@ -29,7 +29,7 @@ function App() {
       <Element name="the-team-page">
         <TheTeam />
       </Element>
-      <Element name="contactpage">
+      <Element name="contact-page">
         <Contact />
       </Element>
     </>
