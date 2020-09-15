@@ -5,6 +5,7 @@ import * as emailjs from 'emailjs-com'
 
 const Wrapper = styled.div`
   height: 100vh;
+  width: 100%;
   background-color: white;
 `;
 
@@ -22,7 +23,7 @@ const Title = styled.div`
 
 const Input = styled.input`
   padding: 0.5em;
-  margin: 1.7em;
+  margin: 60px 0 0 30px;
   background: white;
   border-radius: 3px;
   border-color: #90adbb;
@@ -34,7 +35,7 @@ const Input = styled.input`
 
 const Message = styled.textarea`
   padding: 0.5em;
-  margin: 1.7em;
+  margin: 60px 0 0 30px;
   background: white;
   border: 1;
   border-radius: 3px;
@@ -48,9 +49,8 @@ const Message = styled.textarea`
 
 const Button = styled.button`
   font-size: 1em;
-  margin: 1.0em;
+  margin: 60px 0 0 30px;
   border-radius: 3px;
-  position: absolute;
   width: 104px;
   height: 40px;
   background: #6A90A3;
@@ -60,6 +60,7 @@ const Button = styled.button`
   font-size: 30px;
   line-height: 35px;
   color: #FFFFFF;
+  display: block;
 `;
 
 const Form = styled.form`
@@ -70,7 +71,7 @@ const SubmitMsg= styled.form`
   font-size: 30px;
   color: #6A90A3;
   letter-spacing: 1px;
-  margin-top: 4.0em;
+  margin-top: 2.0em;
   margin-left: 1.0em;
 `;
 
