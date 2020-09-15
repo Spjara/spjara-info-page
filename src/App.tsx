@@ -2,6 +2,7 @@ import React from 'react';
 import Landing from './components/Landing/Landing';
 import OurMission from './components/OurMission/OurMission';
 import TheTeam from './components/TheTeam/TheTeam';
+import Contact from './components/Contact/Contact';
 import { createGlobalStyle } from 'styled-components';
 import { Element } from 'react-scroll';
 
@@ -27,6 +28,9 @@ function App() {
       </Element>
       <Element name="the-team-page">
         <TheTeam />
+      </Element>
+      <Element name="contact-page">
+        <Contact />
       </Element>
     </>
   );

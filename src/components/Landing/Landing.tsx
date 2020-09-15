@@ -51,6 +51,9 @@ function Landing() {
           <Link to="the-team-page" spy={true} smooth={true} duration={500}>
             <SubTitle>Teymið okkar</SubTitle>
           </Link>
+          <Link to="contact-page" spy={true} smooth={true} duration={500}>
+            <SubTitle>Hafa samband</SubTitle>
+          </Link>
         </Nav>
         <Title>Spjara</Title>
       </Content>
