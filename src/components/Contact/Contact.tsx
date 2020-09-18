@@ -19,6 +19,7 @@ const Title = styled.div`
   color: #6a90a3;
   padding: 60px 0 0 30px;
   letter-spacing: 5px;
+  width: 75%;
 `;
 
 const Input = styled.input`
@@ -29,7 +30,7 @@ const Input = styled.input`
   border-color: #90adbb;
   margin: 100;
   font-size: 1.5vh;
-  width: 60vh;
+  width: 75%;
   color: #3a535f;
 `;
 
@@ -43,13 +44,13 @@ const Message = styled.textarea`
   margin: 100;
   font-size: 1.5vh;
   color: #3a535f;
-  width: 60vh;
+  width: 75%;
   height: 7vh;
 `;
 
 const Button = styled.button`
   font-size: 1em;
-  margin: 60px 0 0 30px;
+  margin: 60px 0 20px 30px;
   border-radius: 3px;
   width: 104px;
   height: 40px;
@@ -116,9 +117,9 @@ function Contact() {
       <Content>
         <Title>Hafa samband</Title>
         <Form onSubmit={handleSubmit(onSubmit)}>
-         <Input name="name" placeholder="Nafn" type="text" ref={register({ required: true})} ></Input>
-         <Input name="email" placeholder="Netfang" type="text" ref={register({ required: true})}></Input>
-         <Message placeholder="Skilaboð" name="msg" ref={register({ required: true})}></Message>
+         <Input name="name" placeholder="Nafn*" type="text" ref={register({ required: true})} ></Input>
+         <Input name="email" placeholder="Netfang*" type="text" ref={register({ required: true})}></Input>
+         <Message placeholder="Skilaboð*" name="msg" ref={register({ required: true})}></Message>
          <Button type="submit">Senda</Button>
         </Form>
         <SubmitMsg>{submitMsg}</SubmitMsg>
