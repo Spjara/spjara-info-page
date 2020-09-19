@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/spjara-info-page/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/spjara-info-page/static/js/main.3e151651.chunk.js",
+    "main.js.map": "/spjara-info-page/static/js/main.3e151651.chunk.js.map",
+    "runtime-main.js": "/spjara-info-page/static/js/runtime-main.9c124f98.js",
+    "runtime-main.js.map": "/spjara-info-page/static/js/runtime-main.9c124f98.js.map",
+    "static/js/2.dd334fdb.chunk.js": "/spjara-info-page/static/js/2.dd334fdb.chunk.js",
+    "static/js/2.dd334fdb.chunk.js.map": "/spjara-info-page/static/js/2.dd334fdb.chunk.js.map",
+    "index.html": "/spjara-info-page/index.html",
+    "precache-manifest.4c82900c2b14b97199bb3df06010a45c.js": "/spjara-info-page/precache-manifest.4c82900c2b14b97199bb3df06010a45c.js",
+    "service-worker.js": "/spjara-info-page/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/spjara-info-page/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.dd334fdb.chunk.js.LICENSE.txt": "/spjara-info-page/static/js/2.dd334fdb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9c124f98.js",
+    "static/js/2.dd334fdb.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.3e151651.chunk.js"
+  ]
+}
