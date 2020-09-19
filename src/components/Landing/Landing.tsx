@@ -46,7 +46,7 @@ function Landing() {
       <Content>
         <Nav>
           <Link to="our-mission-page" spy={true} smooth={true} duration={500}>
-            <SubTitle>Markmið okkar</SubTitle>
+            <SubTitle>Hvað er Spjara?</SubTitle>
           </Link>
           <Link to="the-team-page" spy={true} smooth={true} duration={500}>
             <SubTitle>Teymið okkar</SubTitle>
