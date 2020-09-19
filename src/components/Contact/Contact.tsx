@@ -4,6 +4,7 @@ import { useForm } from "react-hook-form";
 import * as emailjs from 'emailjs-com'
 
 const Wrapper = styled.div`
+  width: 100%;
   background-color: white;
 `;
 
@@ -17,23 +18,24 @@ const Title = styled.div`
   color: #6a90a3;
   padding: 60px 0 0 30px;
   letter-spacing: 5px;
+  width: 75%;
 `;
 
 const Input = styled.input`
   padding: 0.5em;
-  margin: 1.7em;
+  margin: 60px 0 0 30px;
   background: white;
   border-radius: 3px;
   border-color: #90adbb;
   margin: 100;
   font-size: 1.5vh;
-  width: 60vh;
+  width: 75%;
   color: #3a535f;
 `;
 
 const Message = styled.textarea`
   padding: 0.5em;
-  margin: 1.7em;
+  margin: 60px 0 0 30px;
   background: white;
   border: 1;
   border-radius: 3px;
@@ -41,24 +43,23 @@ const Message = styled.textarea`
   margin: 100;
   font-size: 1.5vh;
   color: #3a535f;
-  width: 60vh;
+  width: 75%;
   height: 7vh;
 `;
 
 const Button = styled.button`
-  font-size: 1em;
-  margin: 1.0em;
+  margin: 60px 0 20px 30px;
   border-radius: 3px;
-  position: absolute;
-  width: 104px;
-  height: 40px;
+  width: auto;
+  height: 5vh;
   background: #6A90A3;
   font-family: Tenor Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 30px;
+  font-size: 3vh;
   line-height: 35px;
   color: #FFFFFF;
+  display: block;
 `;
 
 const Form = styled.form`
@@ -69,7 +70,7 @@ const SubmitMsg= styled.form`
   font-size: 30px;
   color: #6A90A3;
   letter-spacing: 1px;
-  margin-top: 4.0em;
+  margin-top: 2.0em;
   margin-left: 1.0em;
 `;
 
@@ -114,9 +115,9 @@ function Contact() {
       <Content>
         <Title>Hafa samband</Title>
         <Form onSubmit={handleSubmit(onSubmit)}>
-         <Input name="name" placeholder="Nafn" type="text" ref={register({ required: true})} ></Input>
-         <Input name="email" placeholder="Netfang" type="text" ref={register({ required: true})}></Input>
-         <Message placeholder="Skilaboð" name="msg" ref={register({ required: true})}></Message>
+         <Input name="name" placeholder="Nafn*" type="text" ref={register({ required: true})} ></Input>
+         <Input name="email" placeholder="Netfang*" type="text" ref={register({ required: true})}></Input>
+         <Message placeholder="Skilaboð*" name="msg" ref={register({ required: true})}></Message>
          <Button type="submit">Senda</Button>
         </Form>
         <SubmitMsg>{submitMsg}</SubmitMsg>
