@@ -4,7 +4,6 @@ import { useForm } from "react-hook-form";
 import * as emailjs from 'emailjs-com'
 
 const Wrapper = styled.div`
-  height: 100vh;
   background-color: white;
 `;
 
