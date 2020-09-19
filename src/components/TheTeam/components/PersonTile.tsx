@@ -2,10 +2,12 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Wrapper = styled.div`
-  width: 150px;
   background-color: #6a90a3;
   text-align: center;
-  align-items: middle;
+  display: grid;
+  justify-items: center;
+  grid-template-rows: auto auto 1fr;
+  grid-gap: 10px;
 `;
 
 const Title = styled.div`
@@ -15,9 +17,10 @@ const Title = styled.div`
 `;
 
 const SubTitle = styled.div`
-  font-size: 15px;
+  font-size: 13px;
   color: white;
   letter-spacing: 1px;
+  max-width: 300px;
 `;
 
 const Image = styled.div<{ imageUrl: string | undefined }>`
@@ -28,7 +31,8 @@ const Image = styled.div<{ imageUrl: string | undefined }>`
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 5px solid #da6732;
+  border: 5px solid white;
+  margin: auto;
 `;
 
 function PersonTile({

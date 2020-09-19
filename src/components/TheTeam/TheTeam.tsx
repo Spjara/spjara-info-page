@@ -23,11 +23,9 @@ const Title = styled.div`
 const TeamTileWrapper = styled.div`
   padding: 20px;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-  grid-template-rows: repeat(auto-fill, minmax(230px, 1fr));
-  grid-gap: 10px;
-  justify-content: center;
-  align-content: center;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-rows: repeat(auto-fill, minmax(1fr, 1fr));
+  grid-gap: 20px;
 `;
 
 function TheTeam() {
@@ -37,16 +35,28 @@ function TheTeam() {
         <Title>Teymið okkar</Title>
         <TeamTileWrapper>
           <PersonTile
-            title="John Dow"
-            subTitle="sub title"
+            title="Ásgerður Heimisdóttir"
+            subTitle="er nemi í vöruhönnun við LHÍ með bakgrunn í myndlist og textíl. Hún hefur unnið að umhverfismálum og tengir listsköpun sína oft við loftslagsmál. "
             imageUrl="https://content.api.news/v3/images/bin/a6923adbc7bece73803221613f410782"
           />
-          <PersonTile title="John Dow" subTitle="sub title" />
-          <PersonTile title="John Dow" subTitle="sub title" />
-          <PersonTile title="John Dow" subTitle="sub title" />
-          <PersonTile title="John Dow" subTitle="sub title" />
-          <PersonTile title="John Dow" subTitle="sub title" />
-          <PersonTile title="John Dow" subTitle="sub title" />
+          <PersonTile title="Dagný Guðmundsdóttir" subTitle="sub title" />
+          <PersonTile
+            title="Helga Hjartardóttir"
+            subTitle="er bakenda forritari með Bsc í Tölvunarfræði. Hún hefur starfað hjá leikjafyrirtækinu Klang Games og sprotafyrirtækinu Greenqloud, sem keypt var af bandaríska fyrirtækinu NetApp þar sem hún starfar núna. "
+          />
+          <PersonTile
+            title="Kristín Edda Óskarsdóttir"
+            subTitle="er með BS. í sálfræði og mastersnemi í félagslegri sálfræði og umhverfisfræði - með áherslu  á hegðunarvísindi og umhverfismál. Hefur starfað sem stílisti í íslenskum auglýsingum í og með í 12 ár. "
+          />
+          <PersonTile
+            title="Patricia Anna Þormar"
+            subTitle="er lögfræðingur með M.A. gráðu í menningarstjórnun og er stofnandi hlaðvarpsþáttarins Hjúpurinn sem fjallar um lausnir við loftslagsvandanum. Hún hefur haldið fjölda fyrirlestra um umhverfismál og sjálfbærni og hefur fjölbreytta reynslu af verkefnastjórnun bæði hjá hinu opinbera sem og í lista- og menningargeiranum."
+          />
+          <PersonTile
+            title="Pála Ögn Stefánsdóttir"
+            subTitle="er framenda forritari með Bsc í Tölvunarfræði. Hún starfar hjá K3 Business Technologies í hugbúnaðarþróun. Hún hefur mikinn áhuga á sjálfbærari þróun og vill leggja hönd á plóg við að skapa sjálfbærari heim."
+          />
+          <PersonTile title="Sigríður Guðjónsdóttir" subTitle="sub title" />
         </TeamTileWrapper>
       </Content>
     </Wrapper>
