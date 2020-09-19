@@ -49,16 +49,15 @@ const Message = styled.textarea`
 `;
 
 const Button = styled.button`
-  font-size: 1em;
   margin: 60px 0 20px 30px;
   border-radius: 3px;
-  width: 104px;
-  height: 40px;
+  width: auto;
+  height: 5vh;
   background: #6A90A3;
   font-family: Tenor Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 30px;
+  font-size: 3vh;
   line-height: 35px;
   color: #FFFFFF;
   display: block;
