@@ -141,7 +141,7 @@ function Contact() {
             ref={register({ required: true })}
           />
           <Button type="submit">Senda</Button>
-          <SubTitle>eða beint á hello@spjara.is</SubTitle>
+          <SubTitle>eða sendu beint á hello@spjara.is</SubTitle>
         </Form>
         <SubmitMsg>{submitMsg}</SubmitMsg>
       </Content>
