@@ -5,7 +5,8 @@ import PersonTile from './components/PersonTile';
 const Wrapper = styled.div`
   min-height: 100vh;
   width: 100%;
-  background-color: #6a90a3;
+  background-color: #e0dbd8;
+  color: #746e6e;
 `;
 
 const Content = styled.div`
@@ -15,7 +16,6 @@ const Content = styled.div`
 
 const Title = styled.div`
   font-size: 10vh;
-  color: white;
   padding: 60px 0 0 30px;
   letter-spacing: 5px;
 `;

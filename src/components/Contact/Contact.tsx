@@ -4,8 +4,11 @@ import { useForm } from 'react-hook-form';
 import * as emailjs from 'emailjs-com';
 
 const Wrapper = styled.div`
+  min-height: 100vh;
   width: 100%;
-  background-color: white;
+  background-color: #f5efef;
+  color: #746e6e;
+  text-align: center;
 `;
 
 const Content = styled.div`
@@ -15,53 +18,49 @@ const Content = styled.div`
 
 const Title = styled.div`
   font-size: 10vh;
-  color: #6a90a3;
   padding: 60px 0 0 30px;
   letter-spacing: 5px;
 `;
 
 const SubTitle = styled.div`
   font-size: 18px;
-  color: #6a90a3;
-  padding: 60px 0 0 30px;
   letter-spacing: 2px;
   width: 75%;
+  margin: 10px auto;
 `;
 
 const Input = styled.input`
   padding: 5px 15px;
-  margin: 30px 0 0 30px;
-  border-radius: 3px;
-  border: 1px solid #90adbb;
-  font-size: 16px;
+  margin: 30px auto 0 auto;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
   width: 75%;
   height: 30px;
-  color: #3a535f;
 `;
 
 const Message = styled.textarea`
   padding: 5px 15px;
-  margin: 30px 0 0 30px;
-  border-radius: 3px;
-  border: 1px solid #90adbb;
+  margin: 30px auto 0 auto;
+  border-radius: 5px;
+  border: none;
   margin: 100;
   font-size: 16px;
-  color: #3a535f;
   width: 75%;
   height: 60px;
 `;
 
 const Button = styled.button`
-  margin: 60px 0 20px 30px;
+  margin: 60px auto 20px auto;
   border-radius: 3px;
-  background: #6a90a3;
+  background: white;
   font-size: 24px;
   line-height: 35px;
-  color: #ffffff;
   display: block;
   padding: 5px 15px;
   border: none;
   cursor: pointer;
+  color: #746e6e;
 `;
 
 const Form = styled.form`

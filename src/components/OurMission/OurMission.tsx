@@ -3,7 +3,8 @@ import styled from 'styled-components';
 
 const Wrapper = styled.div`
   height: 100vh;
-  background-color: white;
+  background-color: #f5efef;
+  color: #746e6e;
 `;
 
 const Content = styled.div`
@@ -13,25 +14,22 @@ const Content = styled.div`
 
 const Title = styled.div`
   font-size: 10vh;
-  color: #6a90a3;
+  // color: #6a90a3;
   padding: 60px 0 0 30px;
   letter-spacing: 5px;
 `;
 
 const Comma = styled.div`
   font-size: 80px;
-  color: #6a90a3;
 `;
 
 const CommaRight = styled.div`
   font-size: 80px;
-  color: #6a90a3;
   text-align: right;
 `;
 
 const SubTitle = styled.div`
   font-size: 25px;
-  color: #6a90a3;
   letter-spacing: 3px;
   margin: 0 10px;
   padding: 0 20px;

@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Wrapper = styled.div`
-  background-color: #6a90a3;
   text-align: center;
   display: grid;
   justify-items: center;
@@ -12,13 +11,11 @@ const Wrapper = styled.div`
 
 const Title = styled.div`
   font-size: 20px;
-  color: white;
   letter-spacing: 1px;
 `;
 
 const SubTitle = styled.div`
   font-size: 13px;
-  color: white;
   letter-spacing: 1px;
   max-width: 300px;
 `;
