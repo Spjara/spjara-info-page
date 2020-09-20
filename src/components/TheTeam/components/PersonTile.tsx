@@ -26,9 +26,8 @@ const Image = styled.div<{ imageUrl: string | undefined }>`
   background-size: cover;
   background-color: white;
   width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border: 5px solid white;
+  height: 230px;
+  border-radius: 383.5px;
   margin: auto;
 `;
 
