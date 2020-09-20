@@ -6,13 +6,12 @@ import Contact from './components/Contact/Contact';
 import { createGlobalStyle } from 'styled-components';
 import { Element } from 'react-scroll';
 
-// https://fonts.googleapis.com/css?family=Tenor+Sans
-
 export const GlobalStyle = createGlobalStyle`
 @import url(https://fonts.googleapis.com/css?family=Tenor+Sans);
 
 * {
   font-family: 'Tenor Sans';
+  margin: 0;
 }
 `;
 
