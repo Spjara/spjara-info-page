@@ -15,9 +15,12 @@ const Content = styled.div`
 `;
 
 const Title = styled.div`
-  font-size: 10vh;
-  padding: 60px 0 0 30px;
+  font-size: 30px;
+  padding: 60px 0 40px 0;
   letter-spacing: 5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
 `;
 
 const TeamTileWrapper = styled.div`
@@ -43,6 +46,7 @@ function TheTeam() {
           <PersonTile
             title="Helga Hjartardóttir"
             subTitle="er bakenda forritari með Bsc í Tölvunarfræði. Hún hefur starfað hjá leikjafyrirtækinu Klang Games og sprotafyrirtækinu Greenqloud, sem keypt var af bandaríska fyrirtækinu NetApp þar sem hún starfar núna. "
+            imageUrl="https://drive.google.com/drive/u/0/folders/1GvfhhfRWMzENIKuociVWL5uje2u1df4R"
           />
           <PersonTile
             title="Kristín Edda Óskarsdóttir"
