@@ -71,7 +71,6 @@ const Form = styled.form`
 
 const SubmitMsg = styled.form`
   font-size: 30px;
-  color: #6a90a3;
   letter-spacing: 1px;
   margin-top: 2em;
   margin-left: 1em;
