@@ -10,50 +10,39 @@ const Wrapper = styled.div`
 const Content = styled.div`
   max-width: 800px;
   margin: auto;
+  text-align: center;
 `;
 
 const Title = styled.div`
-  font-size: 10vh;
-  // color: #6a90a3;
-  padding: 60px 0 0 30px;
+  font-size: 30px;
+  padding-top: 60px;
   letter-spacing: 5px;
-`;
-
-const Comma = styled.div`
-  font-size: 80px;
-`;
-
-const CommaRight = styled.div`
-  font-size: 80px;
-  text-align: right;
+  text-transform: uppercase;
+  font-weight: 600;
 `;
 
 const SubTitle = styled.div`
-  font-size: 25px;
+  font-size: 20px;
   letter-spacing: 3px;
-  margin: 0 10px;
+  margin: 10% auto;
   padding: 0 20px;
-`;
-
-const TextWrapper = styled.div`
-  margin: 10% auto 0 auto;
-  padding: 20px;
-  max-width: 700px;
+  line-height: 30px;
+  font-weight: 300;
 `;
 
 function OurMission() {
   return (
     <Wrapper>
       <Content>
-        <Title>Hvað er Spjara?</Title>
-        <TextWrapper>
-          <Comma>"</Comma>
-          <SubTitle>
-            SPJARA er stafrænn vettvangur og þar sem notendur geta bæði leigt út
-            og fengið leigðar flíkur, eins og Airbnb fyir föt.
-          </SubTitle>
-          <CommaRight>"</CommaRight>
-        </TextWrapper>
+        <Title>Nýr Stafrænn Vettvangur</Title>
+
+        <SubTitle>
+          Lausnin okkar SPJARA er stafrænn vettvangur þar sem notendur geta bæði
+          leigt út og fengið leigðar flíkur, eins og spariföt, kjóla, kápur,
+          töskur. Með SPJARA færðu aðgang að fjölbreyttri tískuvöru fyrir minni
+          pening, tekjur af eigin fötum og minnkar visstsporið í leiðinni!
+        </SubTitle>
+        <SubTitle>Eins og Airbnb - bara fyrir föt!</SubTitle>
       </Content>
     </Wrapper>
   );

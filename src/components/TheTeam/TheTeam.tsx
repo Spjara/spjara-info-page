@@ -15,9 +15,11 @@ const Content = styled.div`
 `;
 
 const Title = styled.div`
-  font-size: 6vh;
-  padding: 60px 0 60px 0px;
+  font-size: 30px;
+  padding: 60px 0 40px 0;
   letter-spacing: 5px;
+  text-transform: uppercase;
+  font-weight: 600;
   text-align: center;
 `;
 

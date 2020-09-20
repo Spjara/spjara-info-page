@@ -17,9 +17,11 @@ const Content = styled.div`
 `;
 
 const Title = styled.div`
-  font-size: 10vh;
-  padding: 60px 0 0 30px;
+  font-size: 30px;
+  padding: 60px 0 40px 0;
   letter-spacing: 5px;
+  text-transform: uppercase;
+  font-weight: 600;
 `;
 
 const SubTitle = styled.div`
@@ -57,7 +59,7 @@ const Button = styled.button`
   font-size: 24px;
   line-height: 35px;
   display: block;
-  padding: 5px 15px;
+  padding: 5px 25px;
   border: none;
   cursor: pointer;
   color: #746e6e;
@@ -139,6 +141,7 @@ function Contact() {
             ref={register({ required: true })}
           />
           <Button type="submit">Senda</Button>
+          <SubTitle>eða sendu beint á hello@spjara.is</SubTitle>
         </Form>
         <SubmitMsg>{submitMsg}</SubmitMsg>
       </Content>
