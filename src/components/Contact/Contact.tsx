@@ -84,7 +84,7 @@ type Inputs = {
 
 function Contact() {
   const [submitMsg, setSubmitMsg] = useState('');
-  const { register, handleSubmit, setValue, errors } = useForm<Inputs>();
+  const { register, handleSubmit, setValue } = useForm<Inputs>();
   const onSubmit = (data: { name: any; email: any; msg: any }) => {
     let templateParams = {
       from_name: data.name,
