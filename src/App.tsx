@@ -6,12 +6,14 @@ import Contact from './components/Contact/Contact';
 import { createGlobalStyle } from 'styled-components';
 import { Element } from 'react-scroll';
 
-export const GlobalStyle = createGlobalStyle`
-@import url(https://fonts.googleapis.com/css?family=Tenor+Sans);
+const GlobalStyle = createGlobalStyle`
+@import url(./Assets/fonts/GTSectraDisplay-Light.ttf);
+@import url(./Assets/fonts/GTSectraDisplay-Medium.ttf);
 
 * {
-  font-family: 'Tenor Sans';
+  font-family: 'GT Sectra';
   margin: 0;
+
 }
 `;
 
