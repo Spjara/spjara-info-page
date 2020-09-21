@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import PersonTile from './components/PersonTile';
 
 const Wrapper = styled.div`
+  position: relative;
   min-height: 100vh;
   width: 100%;
   background-color: #e0dbd8;

@@ -37,10 +37,10 @@ function OurMission() {
         <Title>Nýr Stafrænn Vettvangur</Title>
 
         <SubTitle>
-          SPJARA er stafrænn vettvangur þar sem notendur geta bæði
-          leigt út og fengið leigðar flíkur, eins og spariföt, kjóla, kápur,
-          töskur. Með SPJARA færðu aðgang að fjölbreyttri tískuvöru fyrir minni
-          pening, tekjur af eigin fötum og minnkar visstsporið í leiðinni!
+          SPJARA er stafrænn vettvangur þar sem notendur geta bæði leigt út og
+          fengið leigðar flíkur, eins og spariföt, kjóla, kápur, töskur. Með
+          SPJARA færðu aðgang að fjölbreyttri tískuvöru fyrir minni pening,
+          tekjur af eigin fötum og minnkar visstsporið í leiðinni!
         </SubTitle>
         <SubTitle>Eins og Airbnb - bara fyrir föt!</SubTitle>
       </Content>
