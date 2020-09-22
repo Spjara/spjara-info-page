@@ -35,7 +35,7 @@ const Title = styled.div`
   text-transform: uppercase;
   font-weight: 500;
   text-align: center;
-  font-family: 'GT Sectra Medium'
+  font-family: 'GT Sectra Medium';
 `;
 
 const TeamTileWrapper = styled.div`
@@ -55,37 +55,48 @@ function TheTeam() {
         <TeamTileWrapper>
           <PersonTile
             title="Ásgerður Heimisdóttir"
-            subTitle="er nemi í vöruhönnun við LHÍ með bakgrunn í myndlist og textíl. Hún hefur unnið að umhverfismálum og tengir listsköpun sína oft við loftslagsmál. "
+            subTitle="Ásgerður er nemi í vöruhönnun við LHÍ með bakgrunn í myndlist og textíl. Hún hefur unnið að umhverfis-
+            og fræðslumálum og tengir listsköpun sína gjarnan við loftslagsmál."
             imageUrl="./Assets/TheTeam/asgerdur.jpg"
           />
           <PersonTile
             title="Dagný Guðmundsdóttir"
-            subTitle="er myndlistarkona (MHÍ) og kennari (KHÍ) með áherslu á skúlptúr og textíl og stundar nú fjölbreytta vistrækt. 15 ára starf á Árbæjarsafni við að setja upp sýningar, stjórna viðburðum, sjá um búninga, fyrirbyggjandi forvörslu og setja á laggirnar fræðslustofu um viðhald eldri húsa."
+            subTitle="er myndlistarkona og kennari með áherslu á textíl og stundar nú fjölbreytta vistrækt. Hún á að baki 15 ára
+            starf á Árbæjarsafni við sýningagerð, viðburðastjórnun, fræðslumál, búningaumsjón og fyrirbyggjandi
+            forvörslu."
             imageUrl="./Assets/TheTeam/dagny.jpg"
           />
           <PersonTile
             title="Helga Hjartardóttir"
-            subTitle="er bakenda forritari með Bsc í Tölvunarfræði. Hún hefur starfað hjá leikjafyrirtækinu Klang Games og sprotafyrirtækinu Greenqloud, sem keypt var af bandaríska fyrirtækinu NetApp þar sem hún starfar núna. "
+            subTitle="er bakendaforritari með Bsc í tölvunarfræði. Hún hefur starfað hjá leikjafyrirtækinu Klang Games
+            og sprotafyrirtækinu Greenqloud, sem keypt var af bandaríska fyrirtækinu NetApp þar sem hún starfar
+            núna."
             imageUrl="./Assets/TheTeam/helga.jpg"
           />
           <PersonTile
             title="Kristín Edda Óskarsdóttir"
-            subTitle="er með BS. í sálfræði og mastersnemi í félagslegri sálfræði og umhverfisfræði - með áherslu  á hegðunarvísindi og umhverfismál. Hefur starfað sem stílisti í íslenskum auglýsingum í og með í 12 ár. "
+            subTitle="Kristín Edda er meistaranemi í félagslegri sálfræði og umhverfisfræði með áherslu á hegðunarvísindi. Hún
+            hefur víðfeðma reynslu úr auglýsingageiranum og hefur starfað sem stílisti í 12 ár."
             imageUrl="./Assets/TheTeam/kristin_edda.jpg"
           />
           <PersonTile
             title="Patricia Anna Þormar"
-            subTitle="er lögfræðingur með M.A. gráðu í menningarstjórnun og er stofnandi hlaðvarpsþáttarins Hjúpurinn sem fjallar um lausnir við loftslagsvandanum. Hún hefur haldið fjölda fyrirlestra um umhverfismál og sjálfbærni og hefur fjölbreytta reynslu af verkefnastjórnun bæði hjá hinu opinbera sem og í lista- og menningargeiranum."
+            subTitle="Patricia er lögfræðingur og stofnandi hlaðvarpsþáttarins Hjúpurinn sem fjallar um lausnir við
+            loftslagsvandanum. Hún hefur fjölbreytta reynslu af verkefnastjórnun, fræðslustjórnun og ráðgjöf."
             imageUrl="./Assets/TheTeam/patsy.png"
           />
           <PersonTile
             title="Pála Ögn Stefánsdóttir"
-            subTitle="er framenda forritari með Bsc í Tölvunarfræði. Hún starfar hjá K3 Business Technologies í hugbúnaðarþróun. Hún hefur mikinn áhuga á sjálfbærari þróun og vill leggja hönd á plóg við að skapa sjálfbærari heim."
+            subTitle="er framendaforritari með Bsc í tölvunarfræði. Hún starfar hjá K3 Business Technologies í
+            hugbúnaðarþróun. Hún hefur mikinn áhuga á sjálfbærri þróun og vill leggja hönd á plóg við að skapa
+            sjálfbærari heim."
             imageUrl="./Assets/TheTeam/pala.png"
           />
           <PersonTile
             title="Sigríður Guðjónsdóttir"
-            subTitle="er félagssálfræðingur (MSc) með ástríðu fyrir að nýta innsýn úr sálfræði til að finna lausnir í umhverfismálum. Fjölbreytt reynsla af sviði ráðgjafar, rannsókna og gagnaúrvinnslu, viðburðarskipulags, þverfaglegrar teymisvinnu, textasmíða og fræðslustarfa."
+            subTitle="er félagssálfræðingur (MSc) með ástríðu fyrir að nýta innsýn úr sálfræði til að finna lausnir við
+            umhverfismálum. Hún hefur fjölbreytta reynslu á sviði ráðgjafar, rannsókna og gagnaúrvinnslu,
+            viðburðarskipulags, þverfaglegrar teymisvinnu, textasmíða og fræðslustarfa."
             imageUrl="./Assets/TheTeam/sigga.jpg"
           />
         </TeamTileWrapper>
