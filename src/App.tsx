@@ -5,6 +5,7 @@ import TheTeam from './components/TheTeam/TheTeam';
 import Contact from './components/Contact/Contact';
 import { createGlobalStyle } from 'styled-components';
 import { Element } from 'react-scroll';
+import * as S from './App.styles';
 
 const GlobalStyle = createGlobalStyle`
 @import url(./Assets/fonts/GTSectraDisplay-Light.ttf);
@@ -21,6 +22,9 @@ function App() {
   return (
     <>
       <GlobalStyle />
+      <S.DarkArrow />
+      <S.PinkArrow />
+      <S.RedArrow />
       <Element name="landing-page">
         <Landing />
       </Element>

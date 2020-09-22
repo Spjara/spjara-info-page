@@ -7,6 +7,8 @@ function Landing() {
       <S.Background />
       <S.LeftDress />
       <S.RightDress />
+      <S.YellowLine />
+      <S.RedLine />
       <S.Content>
         <S.TextWrapper>
           <S.Title>Spjara</S.Title>

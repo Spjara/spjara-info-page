@@ -3,11 +3,24 @@ import styled from 'styled-components';
 import PersonTile from './components/PersonTile';
 
 const Wrapper = styled.div`
+  z-index: -1;
   position: relative;
   min-height: 100vh;
   width: 100%;
-  background-color: #e0dbd8;
+  background-color: #dbd7d5;
   color: #746e6e;
+`;
+
+export const Background = styled.div`
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  width: 150vh;
+  height: 100vh;
+  background: url('./Assets/icons/right_corner.svg') no-repeat;
+  content: '';
+  background-size: cover;
 `;
 
 const Content = styled.div`
@@ -35,6 +48,7 @@ const TeamTileWrapper = styled.div`
 function TheTeam() {
   return (
     <Wrapper>
+      <Background />
       <Content>
         <Title>VIÐ ERUM</Title>
         <TeamTileWrapper>

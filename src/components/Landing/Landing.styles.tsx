@@ -70,6 +70,60 @@ export const LeftDress = styled.div`
   }
 `;
 
+export const YellowLine = styled.div`
+  position: absolute;
+  z-index: -1;
+  bottom: 10%;
+  left: 30%;
+  width: 25px;
+  height: 200px;
+  background: url('./Assets/icons/yellow_line.svg');
+  content: '';
+  background-size: cover;
+
+  // tablet
+  @media (max-width: 768px) {
+    bottom: 10%;
+    left: 30%;
+    width: 20px;
+    height: 150px;
+  }
+
+  // mobile L
+  @media (max-width: 425px) {
+    bottom: 10%;
+    left: 30%;
+    width: 20px;
+    height: 100px;
+  }
+`;
+
+export const RedLine = styled.div`
+  position: absolute;
+  z-index: -1;
+  top: 5%;
+  right: 35%;
+  width: 20px;
+  height: 200px;
+  background: url('./Assets/icons/red_line.svg');
+  content: '';
+  background-size: cover;
+
+  // tablet
+  @media (max-width: 768px) {
+    right: 35%;
+    width: 20px;
+    height: 150px;
+  }
+
+  // mobile L
+  @media (max-width: 425px) {
+    right: 35%;
+    width: 20px;
+    height: 100px;
+  }
+`;
+
 export const Content = styled.div`
   height: 100%;
   max-width: 800px;

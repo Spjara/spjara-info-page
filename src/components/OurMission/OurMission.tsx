@@ -2,8 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Wrapper = styled.div`
+  position: relative;
   height: 100vh;
-  background-color: #f5efef;
+  background-color: #f1efee;
   color: #746e6e;
 `;
 

@@ -6,7 +6,7 @@ import * as emailjs from 'emailjs-com';
 const Wrapper = styled.div`
   min-height: 100vh;
   width: 100%;
-  background-color: #f5efef;
+  background-color: #f1efee;
   color: #746e6e;
   text-align: center;
 `;
