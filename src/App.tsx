@@ -5,20 +5,35 @@ import TheTeam from './components/TheTeam/TheTeam';
 import Contact from './components/Contact/Contact';
 import { createGlobalStyle } from 'styled-components';
 import { Element } from 'react-scroll';
+import * as S from './App.styles';
+import GTSectraLight from './fonts/GTSectraDisplay-Light.ttf';
+import GTSectraMedium from './fonts/GTSectraDisplay-Medium.ttf';
+import Helvetica from './fonts/HelveticaNowDisplay-Light.otf';
 
-export const GlobalStyle = createGlobalStyle`
-@import url(https://fonts.googleapis.com/css?family=Tenor+Sans);
+const GlobalStyle = createGlobalStyle`
+@font-face {
+   font-family: 'GT Sectra Light';
+   src: url(${GTSectraLight}) format('truetype');
+ }
 
-* {
-  font-family: 'Tenor Sans';
-  margin: 0;
-}
+ @font-face {
+    font-family: 'GT Sectra Medium';
+    src: url(${GTSectraMedium}) format('truetype');
+  }
+
+  @font-face {
+     font-family: 'Helvetica';
+     src: url(${Helvetica}) format('truetype');
+   }
 `;
 
 function App() {
   return (
     <>
       <GlobalStyle />
+      <S.DarkArrow />
+      <S.PinkArrow />
+      <S.RedArrow />
       <Element name="landing-page">
         <Landing />
       </Element>

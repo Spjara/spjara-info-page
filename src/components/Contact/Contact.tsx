@@ -6,7 +6,7 @@ import * as emailjs from 'emailjs-com';
 const Wrapper = styled.div`
   min-height: 100vh;
   width: 100%;
-  background-color: #f5efef;
+  background-color: #f1efee;
   color: #746e6e;
   text-align: center;
 `;
@@ -18,10 +18,11 @@ const Content = styled.div`
 
 const Title = styled.div`
   font-size: 30px;
-  padding: 60px 0 40px 0;
+  padding: 60px 0 30px 0;
   letter-spacing: 5px;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 500;
+  font-family: 'GT Sectra Medium'
 `;
 
 const SubTitle = styled.div`
@@ -29,6 +30,7 @@ const SubTitle = styled.div`
   letter-spacing: 2px;
   width: 75%;
   margin: 10px auto;
+  font-family: 'GT Sectra Medium'
 `;
 
 const Input = styled.input`
@@ -39,6 +41,7 @@ const Input = styled.input`
   font-size: 18px;
   width: 75%;
   height: 30px;
+  font-family: 'Helvetica';
 `;
 
 const Message = styled.textarea`
@@ -47,9 +50,10 @@ const Message = styled.textarea`
   border-radius: 5px;
   border: none;
   margin: 100;
-  font-size: 16px;
+  font-size: 18px;
   width: 75%;
   height: 60px;
+  font-family: 'Helvetica';
 `;
 
 const Button = styled.button`
@@ -63,6 +67,7 @@ const Button = styled.button`
   border: none;
   cursor: pointer;
   color: #746e6e;
+  font-family: 'Helvetica';
 `;
 
 const Form = styled.form`
@@ -116,7 +121,7 @@ function Contact() {
   return (
     <Wrapper>
       <Content>
-        <Title>Hafa samband</Title>
+        <Title>Hafðu samband</Title>
         <SubTitle>
           Ef þú ert með hugmyndir eða spurningar til okkar, ekki þá hika við að
           vera í sambandi!
