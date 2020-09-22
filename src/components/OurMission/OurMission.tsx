@@ -15,20 +15,22 @@ const Content = styled.div`
 `;
 
 const Title = styled.div`
-  font-size: 30px;
-  padding-top: 60px;
+  font-size: 33px;
+  padding-top: 70px;
   letter-spacing: 5px;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 900;
+  font-family: 'GT Sectra Light'
 `;
 
 const SubTitle = styled.div`
-  font-size: 20px;
+  font-size: 28px;
   letter-spacing: 3px;
   margin: 10% auto;
   padding: 0 20px;
   line-height: 30px;
   font-weight: 300;
+  font-family: 'Helvetica'
 `;
 
 function OurMission() {

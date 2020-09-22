@@ -29,12 +29,13 @@ const Content = styled.div`
 `;
 
 const Title = styled.div`
-  font-size: 30px;
+  font-size: 35px;
   padding: 60px 0 40px 0;
   letter-spacing: 5px;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 500;
   text-align: center;
+  font-family: 'GT Sectra Medium'
 `;
 
 const TeamTileWrapper = styled.div`

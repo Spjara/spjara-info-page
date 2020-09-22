@@ -135,15 +135,17 @@ export const Content = styled.div`
 `;
 
 export const Title = styled.div`
-  font-weight: 600;
+  font-weight: 800;
+  font-family: 'GT Sectra Light'
 `;
 
 export const SubTitle = styled.div`
   font-weight: 100;
+  font-family: 'GT Sectra Light'
 `;
 
 export const TextWrapper = styled.div`
-  font-size: 90px;
+  font-size: 110px;
   padding-top: auto;
   padding-bottom: auto;
   text-transform: uppercase;

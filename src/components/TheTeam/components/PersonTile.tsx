@@ -12,12 +12,14 @@ const Wrapper = styled.div`
 const Title = styled.div`
   font-size: 20px;
   letter-spacing: 1px;
+  font-family: 'GT Sectra Medium'
 `;
 
 const SubTitle = styled.div`
-  font-size: 13px;
+  font-size: 16px;
   letter-spacing: 1px;
   max-width: 300px;
+  font-family: 'GT Sectra Light'
 `;
 
 const Image = styled.div<{ imageUrl: string | undefined }>`
